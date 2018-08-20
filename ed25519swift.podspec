@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/pebble8888"
   s.ios.deployment_target = "10.3"
   s.osx.deployment_target = "10.9"
+  s.watchos.deployment_target = "4.3"
   s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.0" }
   s.source       = { :git => "https://github.com/pebble8888/ed25519swift.git", :tag => s.version.to_s }
   s.source_files  = "Ed25519macOS"
